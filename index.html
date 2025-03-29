@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-white d-flex align-items-center justify-content-center">
+        <div>
+            <h1 class="fw-bold">Hi, I'm Sivathmika Chavali</h1>
+            <p class="lead">Passionate Software Developer</p>
+            <a href="https://leetcode.com/u/sivathmika522/" class="btn btn-light btn-lg mt-3">View My LeetCode Profile</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5 text-center">
+        <h2 class="fw-bold">About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="img.jpg" alt="Your Image" class="profile-img">
+            </div>
+            <div class="col-md-8">
+                <p class="lead text-muted">I am a software developer with over a year of experience in the tech industry. Passionate about coding and problem-solving, I continuously work on enhancing my skills in data structures, algorithms, and web development. Currently, I am transitioning from automation testing to software development, actively honing my expertise through hands-on projects and consistent practice on LeetCode.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Experience Section -->
+<section id="experience" class="container my-5">
+    <h2 class="text-center fw-bold mb-4">Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i class="fas fa-briefcase"></i> <!-- FontAwesome icon -->
+            </div>
+            <div class="timeline-content">
+                <h3 class="fw-bold">QA Automation Engineer</h3>
+                <p class="text-muted">March 2024 - Present  <b>-></b>  <b>Tech Mahindra</b></p>
+                <ul class="experience-list">
+                    <li>Automated test cases for Google client using Copycat tool.</li>
+                    <li>Migrated existing code to <b>Page Object Model (POM)</b> for better reusability.</li>
+                    <li>Proficient in <b>Selenium WebDriver & Java</b> for test automation.</li>
+                    <li>Developed & managed <b>Google Dashboards</b> to visualize test results.</li>
+                    <li>Automated sheets data extraction using <b>Google Apps Script</b>.</li>
+                </ul>
+            </div>
+            <div class="timeline-content">
+                <h3 class="fw-bold">BackEnd Developer</h3>
+                <p class="text-muted">May 2023 - Oct 2023 <b>-></b>  <b>Chakravyuha Software Technologies</b></p>
+                <ul class="experience-list">
+                    <li>Gained hands-on experience in backend data storage and management.</li>
+                    <li>Developed <b>“Library Management”</b> using ExpressJs framework, MongoDB, NodeJS.</li>
+                    <li>Researched about tokens, authorization, hashed passwords and security of data.</li>
+                    <li>Designed a simple website using EJS (Embeded JavaScript).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills-section text-center">
+    <h2 class="fw-bold">Skills</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>Programming Languages</h4>
+                    <p>Java, Python</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>Web Development</h4>
+                    <p>Node.js, Express.js, HTML, CSS, Bootstrap</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>Automation & Testing</h4>
+                    <p>Selenium WebDriver, CopyCat Tool, Google App Script</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>Database & Cloud</h4>
+                    <p>MongoDB, MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>Version Control</h4>
+                    <p>Git, GitHub</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="skill-card">
+                    <h4>DSA & Problem Solving</h4>
+                    <p>LeetCode, GeeksForGeeks, Competitive Coding</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center text-white">
+        <h2 class="fw-bold">Contact Me</h2>
+        <p>sivathmikac@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/sivathmika-chavali-96b339218/"> LinkedIn </a></p>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

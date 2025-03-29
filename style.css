@@ -1,0 +1,256 @@
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://source.unsplash.com/1600x900/?technology,developer') center/cover;
+}
+.btn:hover {
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+    transform: translateY(-3px); /* Slight lift */
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.06);
+}
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://source.unsplash.com/1600x900/?technology,developer') center/cover; 
+}
+
+/* Profile Image */
+.profile-img {
+    width: 100%;
+    height: 50%;
+    max-width: 250px;
+    max-height: 1000px;
+    border-radius: 250%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.profile-img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px  rgba(0, 123, 255, 0.4);
+    background: #f0f8ff;
+}
+/* Experience Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin-right: 100px;
+    background-color: #909090;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.timeline-item:hover {
+    transform: scale(1.06);
+}
+
+/* Timeline Icon */
+.timeline-icon {
+    position: absolute;
+    left: -30px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Experience Content */
+.timeline-content {
+    margin-left: 50px;
+}
+.timeline-item {
+    border-left: 5px solid #007bff;
+    transition: all 0.3s ease-in;
+}
+
+.timeline-item:hover {
+    box-shadow: 0 10px 20px  rgba(0, 123, 255, 0.4);
+    background: #f0f8ff;
+    border-left: 5px solid #ff9800;
+}
+/* About Me Section */
+#about {
+    background:#909090; /* Light background */
+    padding: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding-right: 40px;
+    transition: transform 0.3s ease-in-out; /* Add smooth animation */
+
+}
+#about:hover {
+    transform: scale(1.05); 
+}
+
+/* Profile Image */
+.profile-img {
+    width: 100%;
+    max-width: 250px; /* Adjust size */
+    border-radius: 50%; /* Circular image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* About Me Text */
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff !important; /* Force white text */
+    text-align: justify;
+}
+
+
+/* Section Heading */
+#about h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+/* Experience List */
+.experience-list {
+    list-style: none;
+    padding-left: 10;
+}
+
+.experience-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.experience-list li::before {
+    content: "*";
+    position: absolute;
+    left: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.timeline-content {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+/* Ensure Experience Titles Stay on One Line */
+.timeline-content h3 {
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides any overflowing text */
+   
+    max-width: 100%; /* Ensures it doesn't exceed its container */
+}
+
+/* Skills Section */
+.skills-section {
+    background: #f0f0f0; /* Light gray background */
+    padding: 60px 0;
+    border-radius: 10px;
+}
+
+/* Section Heading */
+.skills-section h2 {
+    font-size: 32px;
+    color: #000; /* Black heading */
+    margin-bottom: 20px;
+}
+
+/* Skill Card */
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 10px; /* Ensures proper spacing */
+    text-align: center;
+}
+
+/* Hover Effect */
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+/* Skill Card Titles */
+.skill-card h4 {
+    font-size: 20px;
+    color: #000; /* Black text */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Skill Card Content */
+.skill-card p {
+    font-size: 16px;
+    color: #333; /* Dark gray */
+}
+
+/* Contact Section */
+.contact-section {
+    background: #343a40;
+    padding: 50px 0;
+}
+/* Contact Section */
+.contact-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* Blue gradient background */
+    padding: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Heading */
+.contact-section h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Contact Info */
+.contact-section p {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+/* Contact Links */
+.contact-section a {
+    color: #ffffff; /* Gold color for contrast */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-section a:hover {
+    color: #ffffff; /* White on hover */
+    text-decoration: underline;
+}
+
